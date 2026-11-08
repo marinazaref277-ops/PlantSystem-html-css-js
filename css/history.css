@@ -1,0 +1,70 @@
+.history-header {
+    
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./../img/detector1.avif');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 40px;
+    margin-top: 56px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.history-item {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-left: 4px solid #198754;
+}
+
+.history-item.diseased {
+    border-left-color: #dc3545;
+}
+
+.history-thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.confidence-badge {
+    background: #e8f5e9;
+    color: #198754;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.empty-history {
+    background: #f8f9fa;
+    border-radius: 20px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.date-group {
+    margin-bottom: 30px;
+}
+
+.date-group h6 {
+    color: #6c757d;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+}
